@@ -6,12 +6,12 @@ export default function Navbar() {
     <div>
       <div id="navbar">
           <div className="navbar">
-               <div id="logo">Crypt0-Coin</div>
+               <div id="logo">CRYPTIC</div>
                <div id="ul">
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">home</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Market</a></li>
+                    <li><a href="#">Why Choose us</a></li>
+                    <li><a href="#">Join us</a></li>
                </div>
                <div id="nav3">
                     <li><a href="#">tu</a></li>

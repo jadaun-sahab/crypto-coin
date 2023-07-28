@@ -1,9 +1,38 @@
-*{
+* {
      margin: 0;
      padding: 0;
 }
 
-.navbar{
+#navbar {}
+
+.navbar {
+     width: 80%;
+     margin: 0 auto;
      display: flex;
      justify-content: space-between;
+}
+
+#navbar .navbar #ul {
+     display: flex;
+}
+
+#navbar .navbar #ul li a {
+     padding: 10px;
+     font-size: 1.4rem;
+}
+
+#logo {
+     font-size: 1.4rem;
+}
+
+li {
+     list-style: none;
+}
+
+a {
+     text-decoration: none;
+}
+
+#navbar #nav3 {
+     display: flex;
 }
