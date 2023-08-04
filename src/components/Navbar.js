@@ -2,8 +2,10 @@ import React from 'react'
 import "../style/navbar.css";
 
 export default function Navbar() {
+  
   return (
-    <div>
+    
+    <>
       <div id="navbar">
           <div className="navbar">
                <div id="logo">CRYPTIC</div>
@@ -19,6 +21,6 @@ export default function Navbar() {
                </div>
           </div>
       </div>
-    </div>
+    </>
   )
 }

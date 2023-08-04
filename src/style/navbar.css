@@ -3,9 +3,15 @@
      padding: 0;
 }
 
-#navbar {}
+#navbar {
+     position: fixed;
+     background-color: #f0c5c5;
+     width: 100%;
+     
+}
 
 .navbar {
+     
      width: 80%;
      margin: 0 auto;
      display: flex;
@@ -19,6 +25,7 @@
 #navbar .navbar #ul li a {
      padding: 10px;
      font-size: 1.4rem;
+     color: black;
 }
 
 #logo {
@@ -36,3 +43,9 @@ a {
 #navbar #nav3 {
      display: flex;
 }
+.BgColour {
+     color: black;
+     transition: all 0.5s;
+     border-bottom: 1px solid lightgray;
+     background-color: var(--secondry-color);
+   }
