@@ -14,7 +14,7 @@ export default function Navbar() {
                     <li><a href="#">Join us</a></li>
                </div>
                <div id="nav3">
-                    <li><a href="#">tu</a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
                     <li><a href="#">ty</a></li>
                </div>
           </div>
