@@ -3,8 +3,40 @@
      height: 100vh;
 }
 .heading{
+     padding-top:3em;
+     margin:  auto;
+     justify-content: center;
      display: flex;
 }
 .heading img{
      width: 70px;
+     padding-top: 2em;
+     height: 70px;
+     animation-name: updown;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+}
+.heading h1{
+     padding: 6px 60px;
+     color: white;
+     font-size: 6em;
+}
+@keyframes updown{
+     0%{
+          transform: translateY(20px);
+     }
+     50%{
+          transform: translateY(0px);
+     }
+     100%{
+          transform: translateY(20px);
+     }
+}
+.heading2 h1{
+     padding: 6px 60px;
+     text-align: center;
+     font-size: 6em; 
+     background: linear-gradient(140deg, #00dbe0, #fc00ff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
