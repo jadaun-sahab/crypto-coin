@@ -40,3 +40,13 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+.heading3{
+     display: flex;
+}
+.heading3 img{
+     width: 100px;
+}
+
+.child{
+     display: block;
+}
