@@ -21,7 +21,6 @@ function App() {
               <Route exact path="/Market" element={<Market/>}></Route>
               <Route exact path="/Join" element={<Join/>}></Route>
             </Routes>
-          
       </div>
     </Router>
   )
