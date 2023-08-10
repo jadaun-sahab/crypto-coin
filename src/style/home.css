@@ -2,3 +2,9 @@
      background: linear-gradient(rgb(37, 1, 87),black);
      height: 100vh;
 }
+.heading{
+     display: flex;
+}
+.heading img{
+     width: 70px;
+}
