@@ -16,9 +16,11 @@ export default function Home() {
           <h1>TRACK AND TRADE</h1>
           <img src={img2} alt="Logo" />;
         </div>
+
         <div className="heading2">
           <h1>CRYPTO CURRENCIES</h1>
         </div>
+        
         <div className="heading3">
           <div className="child">
             <img src={img3} alt="Logo"/>;

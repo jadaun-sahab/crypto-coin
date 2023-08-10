@@ -1,6 +1,6 @@
 .home{
      background: linear-gradient(rgb(37, 1, 87),black);
-     height: 100vh;
+     height: 700px;
 }
 .heading{
      padding-top:3em;
@@ -23,13 +23,13 @@
 }
 @keyframes updown{
      0%{
-          transform: translateY(20px);
+          transform: translateY(25px);
      }
      50%{
-          transform: translateY(0px);
+          transform: translateY(-9px);
      }
      100%{
-          transform: translateY(20px);
+          transform: translateY(25px);
      }
 }
 .heading2 h1{
@@ -37,16 +37,33 @@
      text-align: center;
      font-size: 6em; 
      background: linear-gradient(140deg, #00dbe0, #fc00ff);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
 }
 .heading3{
+     margin: 3em 0;
+    justify-content: center;
      display: flex;
 }
 .heading3 img{
+     display: flex;
+     justify-content: center;
+     align-items: center;
      width: 100px;
+     margin: 0 auto;
 }
 
 .child{
+     text-align: center;
+     margin: 0 4em;
      display: block;
+}
+.child h2{
+     color: white;
+}
+.child h2 span{
+     color: red;
+}
+.child p{
+     color: white;
 }
