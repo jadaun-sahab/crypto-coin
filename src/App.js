@@ -1,6 +1,7 @@
 import './App.css';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
+import Market from './components/Market';
 import{
   BrowserRouter as Router,
   Routes,
@@ -13,11 +14,11 @@ function App() {
     <>
     <Router>
     <Routes>
-      <Route exact path="/About" element={<About/>}>
+      <Route exact path="/Market" element={<Market/>}>
       </Route>
-      <Route exact path="/" element={
-        <TextForm showAlert={showAlert} heading="Enter The Text Here To Analyze" mode={mode}/>}>
-      </Route>
+      {/* <Route exact path="/" element={
+        <TextForm showAlert={showAlert} heading="Enter The Text Here To Analyze" />}>
+      </Route> */}
     </Routes>
     <Navbar/>
     <Home/>
