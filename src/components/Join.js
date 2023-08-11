@@ -20,7 +20,7 @@ export default function Join() {
           <p>Invest and manage all your crypto at one place.</p>
         </div>
         
-        <div>
+        <div className='joinbutton'>
           <button className="joinbtn">Join via Discord</button>
         </div>
     </div>

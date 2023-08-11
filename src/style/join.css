@@ -7,6 +7,15 @@
      color: white;
      text-align: center;
 }
+
+.joinbutton{
+     margin-top: 2em;
+     padding-bottom: 2em;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
 .joinbtn{
      color: white;
      border-radius: 20px;
