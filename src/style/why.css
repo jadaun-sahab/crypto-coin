@@ -2,13 +2,39 @@
      background: linear-gradient(rgb(37, 1, 87),black);
      height: 100vh;
 }
+.why h1{
+     font-size: 4.5em;
+     text-align: center;
+     color: white;
+}
+.why h1 span{
+     background: linear-gradient(57deg, #007be0, #fc00ff);
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+}
 #maincontainer{
      display: flex;
+     width: 86%;
+     margin: 0 auto;
 }
 
 .childcontainer img{
+     margin: 0 2rem;
      width: 400px;
 }
 .child{
-     
+     background-color: rgb(20, 3, 27);
+     display: flex;
+padding: 29px;
+margin: 10px;
+}
+.child2{
+     display: block;
+}
+.child i{
+     border-radius: 10px;
+     padding: 20px;
+     font-size: 2rem;
+     color: white;
+     background: linear-gradient(57deg, #007be0, #fc00ff);
 }
