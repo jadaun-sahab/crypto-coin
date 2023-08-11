@@ -1,4 +1,14 @@
 .why{
      background: linear-gradient(rgb(37, 1, 87),black);
-     height: 700px;
+     height: 100vh;
+}
+#maincontainer{
+     display: flex;
+}
+
+.childcontainer img{
+     width: 400px;
+}
+.child{
+     
 }
