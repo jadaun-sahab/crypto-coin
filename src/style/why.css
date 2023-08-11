@@ -7,6 +7,7 @@
      font-size: 4.5em;
      text-align: center;
      color: white;
+     margin-bottom: 3em;
 }
 
 .why h1 span {
@@ -33,6 +34,7 @@
      display: flex;
      padding: 29px;
      margin: 10px;
+     color: white;
 }
 
 .child2 {
@@ -43,8 +45,14 @@
 
 .child i {
      border-radius: 10px;
-     padding: 20px;
+     padding: 15px;
      font-size: 2rem;
      color: white;
      background: linear-gradient(57deg, #007be0, #fc00ff);
+}
+.child2 h2{
+     padding-bottom: 9px;
+}
+.child2 p{
+   font-size: 19px;  
 }
