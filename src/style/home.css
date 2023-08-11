@@ -54,17 +54,17 @@
      margin: 0 auto;
 }
 
-.child{
+.homechild{
      text-align: center;
      margin: 0 4em;
      display: block;
 }
-.child h2{
+.homechild h2{
      color: white;
 }
-.child h2 span{
+.homechild h2 span{
      color: red;
 }
-.child p{
+.homechild p{
      color: white;
 }
