@@ -1,37 +1,47 @@
-.why{
-     background: linear-gradient(rgb(37, 1, 87),black);
+.why {
+     background: linear-gradient(rgb(37, 1, 87), black);
      height: 100vh;
 }
-.why h1{
+
+.why h1 {
      font-size: 4.5em;
      text-align: center;
      color: white;
 }
-.why h1 span{
+
+.why h1 span {
      background: linear-gradient(57deg, #007be0, #fc00ff);
      -webkit-text-fill-color: transparent;
      -webkit-background-clip: text;
 }
-#maincontainer{
+
+#maincontainer {
      display: flex;
      width: 86%;
      margin: 0 auto;
 }
 
-.childcontainer img{
+.childcontainer img {
      margin: 0 2rem;
      width: 400px;
 }
-.child{
-     background-color: rgb(20, 3, 27);
+
+.child {
+     border-radius: 20px;
+     border: 2px solid rgb(42, 42, 42);
+     background-color: rgb(19, 7, 39);
      display: flex;
-padding: 29px;
-margin: 10px;
+     padding: 29px;
+     margin: 10px;
 }
-.child2{
+
+.child2 {
+     text-align: left;
+     margin-left: 30px;
      display: block;
 }
-.child i{
+
+.child i {
      border-radius: 10px;
      padding: 20px;
      font-size: 2rem;
