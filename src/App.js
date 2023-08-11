@@ -3,12 +3,14 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Market from './components/Market';
 import Join from './components/Join';
+import Whychoose from './components/Whychoose';
 import{
   BrowserRouter as Router,
   Routes,
   Route,
   Link
 } from "react-router-dom";
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
               <Route exact path="/" element={<Home/>}></Route>
               <Route exact path="/Home" element={<Home/>}></Route>
               <Route exact path="/Market" element={<Market/>}></Route>
+              <Route exact path="/Whychoose" element={<Whychoose/>}></Route>
               <Route exact path="/Join" element={<Join/>}></Route>
             </Routes>
       </div>
