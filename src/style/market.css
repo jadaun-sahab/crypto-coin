@@ -1,0 +1,39 @@
+.market {
+     background-color: #270745;
+     height: 100vh;
+}
+
+.market h1 {
+     color: #ffffff;
+     width: 75%;
+     margin: 0 auto;
+}
+
+.tableheading {
+     background: linear-gradient(140deg, rgb(42, 97, 249), rgb(219, 56, 255));
+     margin: 0 auto;
+     width: 75%;
+     display: flex;
+     justify-content: space-between;
+     border-radius: 50px 50px 0 0;
+}
+
+.tableheading ol {
+     font-size: 2rem;
+     color: white;
+     padding: 10px;
+}
+
+.tablebody {
+     background: linear-gradient(140deg, rgb(36, 11, 57), rgb(6, 44, 94));
+     margin: 0 auto;
+     width: 75%;
+     display: flex;
+     justify-content: space-between;
+}
+
+.tablebody ol {
+     font-size: 2rem;
+     color: white;
+     padding: 10px;
+}

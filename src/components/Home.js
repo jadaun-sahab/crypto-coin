@@ -6,6 +6,7 @@ import img3 from '../img/bitcoin.webp';
 import img4 from '../img/ethereum.webp';
 import img5 from '../img/Tether.webp';
 import img6 from '../img/bnb-icon2_2x.webp';
+import img9 from "../img/img9.png";
 
 export default function Home() {
   return (
@@ -43,6 +44,25 @@ export default function Home() {
             <p>$29,34,66.00</p>
           </div>
         </div>
+
+
+        <div id="footer">
+      <div className="footer">
+        <img src={img9} alt="" />
+        <div className="footerchild">
+            <div className="footerchild1">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-solid fa-gamepad"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div className="footerchild2">
+              <a href="/">Privacy</a>
+              <a href="/">Terms of use</a>
+            </div>
+        </div>
+      </div>
+    </div>
       </div>
     </>
   )

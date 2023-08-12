@@ -2,8 +2,7 @@
      background: linear-gradient( black,rgb(37, 1, 87));
      height: 100%;
 }
-.footer{
-     width: 80%;
+.footer{ 
      margin: auto;
      display: flex;
      justify-content: space-between;
@@ -13,7 +12,7 @@
 }
 .footerchild{
      position: absolute;
-     bottom: -30px;
+     bottom: -90px;
      left: 40%;
      display: block;
 }
@@ -21,7 +20,7 @@
      display: flex;
 }
 .footerchild1 i{
-     padding: 10px 16px;
+     padding: 25px 16px;
      color: white;
      font-size: 2.3rem;
 }

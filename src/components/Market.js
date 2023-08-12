@@ -1,12 +1,26 @@
 import React from 'react'
+import '../style/market.css'
 
 export default function Market() {
   return (
     <>
-      <div className="h">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem aliquid totam enim accusantium corporis officia dolor nam earum a quia, labore sapiente pariatur esse nesciunt eligendi porro ex quisquam molestiae, aut numquam laboriosam? Distinctio?</div> 
-      <div className="h">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem aliquid totam enim accusantium corporis officia dolor nam earum a quia, labore sapiente pariatur esse nesciunt eligendi porro ex quisquam molestiae, aut numquam laboriosam? Distinctio?</div> 
-      <div className="h">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem aliquid totam enim accusantium corporis officia dolor nam earum a quia, labore sapiente pariatur esse nesciunt eligendi porro ex quisquam molestiae, aut numquam laboriosam? Distinctio?</div> 
-      <div className="h">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem aliquid totam enim accusantium corporis officia dolor nam earum a quia, labore sapiente pariatur esse nesciunt eligendi porro ex quisquam molestiae, aut numquam laboriosam? Distinctio?</div>
+      <div className='market'>
+        <h1>Market Update</h1>
+        <div className="tableheading">
+                <ol>coin</ol>
+                <ol>price</ol>
+                <ol>24hour</ol>
+                <ol>market cap</ol>
+        </div>
+        <div className="tablebody">
+                <ol>coin</ol>
+                <ol>price</ol>
+                <ol>24hour</ol>
+                <ol>market cap</ol>
+        </div>
+              
+              
+      </div>
     </>
   )
 }
