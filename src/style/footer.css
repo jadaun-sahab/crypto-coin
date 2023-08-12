@@ -1,0 +1,13 @@
+#footer{
+     background: linear-gradient( black,rgb(37, 1, 87));
+     height: 100%;
+}
+.footer{
+     width: 80%;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+}
+.footer img{
+     width: 100%;
+}
