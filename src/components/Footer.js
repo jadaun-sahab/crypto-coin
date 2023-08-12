@@ -16,7 +16,7 @@ export default function Footer() {
             </div>
             <div className="footerchild2">
               <a href="/">Privacy</a>
-              <a href="/">Terms of service</a>
+              <a href="/">Terms of use</a>
             </div>
         </div>
       </div>
