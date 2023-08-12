@@ -1,0 +1,14 @@
+@media (max-width:1200px) {
+     #maincontainer {
+          display: block;
+          width: 86%;
+          margin: 0 auto;
+     }
+     .childcontainer img {
+          margin: 0 2rem;
+          width: 400px;
+          animation-name: updown;
+          animation-duration: 3s;
+          animation-iteration-count: infinite;
+     }
+}

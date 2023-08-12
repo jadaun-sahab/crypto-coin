@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/why.css";
+import "../style/whymediaq.css";
 import img from "../img/img7.png";
 
 export default function Whychoose() {
