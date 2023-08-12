@@ -1,12 +1,14 @@
 .market {
-     background-color: #270745;
+     background-color: #04050d;
      height: 100vh;
 }
 
 .market h1 {
      color: #ffffff;
      width: 75%;
-     margin: 0 auto;
+     padding-top: 1em;
+     margin: 0 auto 1em auto;
+     font-weight: 400;
 }
 
 .tableheading {
@@ -21,11 +23,15 @@
 .tableheading ol {
      font-size: 2rem;
      color: white;
-     padding: 10px;
+     padding: 10px 15px;
+}
+
+.tableheading ol:nth-child(2) {
+     margin-left: 60px;
 }
 
 .tablebody {
-     background: linear-gradient(140deg, rgb(36, 11, 57), rgb(6, 44, 94));
+     border-bottom: 2px solid white;
      margin: 0 auto;
      width: 75%;
      display: flex;
@@ -36,4 +42,11 @@
      font-size: 2rem;
      color: white;
      padding: 10px;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+}
+
+.tablebody img {
+     width: 40px;
 }
