@@ -1,12 +1,14 @@
 @media (max-width:1200px) {
-     .why{
+     .why {
           padding-bottom: 30px;
      }
+
      #maincontainer {
           display: block;
           width: 86%;
           margin: 0 auto;
      }
+
      .childcontainer img {
           margin: 0 auto;
           width: 350px;
@@ -15,24 +17,32 @@
 }
 
 @media (max-width:800px) {
-     
+
      .childcontainer img {
           margin: 0 auto;
           width: 250px;
           display: block;
      }
+
      .why h1 {
           font-size: 3em;
      }
 }
-@media (max-width:800px) {
-     
-     .childcontainer img {
-          margin: 0 auto;
-          width: 250px;
+
+@media (max-width:500px) {
+
+     .child {
           display: block;
      }
-     .why h1 {
-          font-size: 3em;
+
+     .child i {
+          margin: 4px auto 1.4rem auto;
+          width: 30%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+     }
+     .child2{
+          text-align: center;
      }
 }
