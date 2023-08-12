@@ -1,6 +1,7 @@
 .market {
      background-color: #04050d;
-     height: 100vh;
+     height: 100%;
+     padding-bottom: 90px;
 }
 
 .market h1 {
@@ -37,11 +38,15 @@
      display: flex;
      justify-content: space-between;
 }
+.tablebody:hover{
+     background-color: #191d31;
+     cursor: pointer;
+}
 
 .tablebody ol {
-     font-size: 2rem;
+     font-size: 1.5rem;
      color: white;
-     padding: 10px;
+     padding: 20px 10px ;
      justify-content: center;
      align-items: center;
      display: flex;

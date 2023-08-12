@@ -32,11 +32,13 @@
      color: rgb(240, 240, 240);
      font-size: 1.4rem;
 }
-#nav3 i{
+
+#nav3 i {
      font-size: 1.3rem;
      color: rgb(240, 240, 240);
      padding: 0 10px;
 }
+
 li {
      list-style: none;
 }
@@ -48,9 +50,10 @@ a {
 #navbar #nav3 {
      display: flex;
 }
+
 .BgColour {
      color: black;
      transition: all 0.5s;
      border-bottom: 1px solid lightgray;
      background-color: var(--secondry-color);
-   }
+}
