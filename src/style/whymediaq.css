@@ -1,14 +1,38 @@
 @media (max-width:1200px) {
+     .why{
+          padding-bottom: 30px;
+     }
      #maincontainer {
           display: block;
           width: 86%;
           margin: 0 auto;
      }
      .childcontainer img {
-          margin: 0 2rem;
-          width: 400px;
-          animation-name: updown;
-          animation-duration: 3s;
-          animation-iteration-count: infinite;
+          margin: 0 auto;
+          width: 350px;
+          display: block;
+     }
+}
+
+@media (max-width:800px) {
+     
+     .childcontainer img {
+          margin: 0 auto;
+          width: 250px;
+          display: block;
+     }
+     .why h1 {
+          font-size: 3em;
+     }
+}
+@media (max-width:800px) {
+     
+     .childcontainer img {
+          margin: 0 auto;
+          width: 250px;
+          display: block;
+     }
+     .why h1 {
+          font-size: 3em;
      }
 }
