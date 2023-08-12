@@ -1,0 +1,22 @@
+
+@media (max-width:1150px) {
+     .heading3 img{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100px;
+          margin: 0 auto;
+     }
+     
+     .homechild{
+          text-align: center;
+          margin: 0 2em;
+          display: block;
+     }
+     .footerchild{
+          position: absolute;
+          bottom: -380px;
+          left: 40%;
+          display: block;
+     }
+}

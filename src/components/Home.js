@@ -1,5 +1,6 @@
 import React from 'react'
 import "../style/home.css";
+import "../style/homemediaq.css";
 import img from '../img/img1.png';
 import img2 from '../img/img2.png';
 import img3 from '../img/bitcoin.webp';
