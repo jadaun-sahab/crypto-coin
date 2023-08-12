@@ -1,22 +1,19 @@
 
 @media (max-width:1150px) {
+     .heading h1{
+          font-size: 4em;
+     }
+     .heading2 h1{
+         font-size: 4em;
+     }
      .heading3 img{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 100px;
-          margin: 0 auto;
+          width: 80px;
      }
      
      .homechild{
-          text-align: center;
-          margin: 0 2em;
-          display: block;
+          margin: 0 1em;
      }
      .footerchild{
-          position: absolute;
-          bottom: -380px;
-          left: 40%;
-          display: block;
+          bottom: -250px;
      }
 }
