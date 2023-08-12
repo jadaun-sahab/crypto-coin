@@ -11,3 +11,25 @@
 .footer img{
      width: 100%;
 }
+.footerchild{
+     position: absolute;
+     bottom: -30px;
+     left: 40%;
+     display: block;
+}
+.footerchild1{
+     display: flex;
+}
+.footerchild1 i{
+     padding: 10px 16px;
+     color: white;
+     font-size: 2.3rem;
+}
+.footerchild2{
+     display: flex;
+}
+.footerchild2 a{
+     padding: 0 12px;
+     color: white;
+     margin-left: 29px;
+}
