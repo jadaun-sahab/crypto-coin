@@ -4,11 +4,11 @@ import Navbar from './components/Navbar';
 import Market from './components/Market';
 import Join from './components/Join';
 import Whychoose from './components/Whychoose';
+import Footer from './components/Footer';
 import{
   BrowserRouter as Router,
   Routes,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 
@@ -24,6 +24,7 @@ function App() {
               <Route exact path="/Whychoose" element={<Whychoose/>}></Route>
               <Route exact path="/Join" element={<Join/>}></Route>
             </Routes>
+          <Footer/> 
       </div>
     </Router>
   )
