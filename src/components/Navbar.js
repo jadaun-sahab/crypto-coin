@@ -2,12 +2,18 @@ import React from 'react'
 import "../style/navbar.css";
 import { Link } from 'react-router-dom';
 
+// const toggleButton = document.getElementsByClassName('fa-bars')[0]
+//   const navbarLinks = document.getElementsByClassName('navbar')[0]
+ 
+//   toggleButton.addEventListener('click', () => {
+//       navbarLinks.classList.toggle('active')
+//   })
 export default function Navbar() {
-  
   return (
     
     <>
       <div id="navbar">
+     
           <div className="navbar">
                <div id="logo">CRYPTIC</div>
                <div id="ul">
@@ -21,6 +27,7 @@ export default function Navbar() {
                     <li><a href="/"><i class="fa-solid fa-gamepad"></i></a></li>
                </div>
           </div>
+          <i class="fa-solid fa-bars" onclick="menuitem()"></i>
       </div>
     </>
   )

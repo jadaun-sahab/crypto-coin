@@ -11,6 +11,13 @@
      align-items: center;
 }
 
+#navbar .fa-bars {
+     color: white;
+     font-size: 1.6rem;
+     margin-right: 12px;
+     display: none;
+}
+
 .navbar {
      width: 80%;
      margin: 0 auto;
@@ -57,3 +64,22 @@ a {
      border-bottom: 1px solid lightgray;
      background-color: var(--secondry-color);
 }
+
+@media (max-width:1150px) {
+     .navbar {
+          width: 90%;
+     }
+}
+
+@media (max-width:900px) {
+     #navbar .fa-bars {
+          color: white;
+          font-size: 1.6rem;
+          margin-right: 12px;
+          display: block;
+     }
+}
+
+@media (max-width:750px) {}
+
+@media (max-width:550px) {}
