@@ -9,7 +9,8 @@ export default function Footer() {
         <img src={img} alt="" />
         <div className="footerchild">
 <div className="footerchild1">
-  
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-youtube"></i>
 </div>
         </div>
        
