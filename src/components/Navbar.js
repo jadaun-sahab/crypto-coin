@@ -20,7 +20,7 @@ export default function Navbar() {
                     <li><Link to="/Home">Home</Link></li>
                     <li><Link to="/Market">Market</Link></li>
                     <li><Link to="/Whychoose">Why Choose us</Link></li>
-                    <li><Link to="/Join">Join us</Link></li>
+                    <li><Link to="/join">Join us</Link></li>
                </div>
                <div className={`nav3 ${isActive ? 'active' : ''}`}>
                     <li><a href="/"><i className="fa-brands fa-twitter"></i></a></li>

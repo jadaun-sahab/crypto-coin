@@ -10,6 +10,7 @@ import{
   Routes,
   Route
 } from "react-router-dom";
+import Market2 from './components/Market2';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
               <Route exact path="/Market" element={<Market/>}></Route>
               <Route exact path="/Whychoose" element={<Whychoose/>}></Route>
               <Route exact path="/Join" element={<Join/>}></Route>
+              <Route exact path="/Market2" element={<Market2/>}></Route>
             </Routes>
           {/* <Footer/>  */}
       </div>

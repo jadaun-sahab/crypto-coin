@@ -1,6 +1,7 @@
 import React from 'react'
 import '../style/market.css'
 import img3 from '../img/bitcoin.webp';
+import { Link } from 'react-router-dom';
 
 export default function Market() {
   return (
@@ -54,12 +55,14 @@ export default function Market() {
                 <ol>24hour</ol>
                 <ol>$283629536</ol>
         </div>
+
+        
         <div className="pages">
-                <li><Link to="/">1</Link></li>
-                <li><Link to="/">2</Link></li>
-                <li><Link to="/">3</Link></li>
-                <li><Link to="/">4</Link></li>
-                <li><Link to="/">5</Link></li>
+                <li><Link to="/Market">1</Link></li>
+                <li><Link to="/Market2">2</Link></li>
+                <li><Link to="/Market3">3</Link></li>
+                <li><Link to="/Market4">4</Link></li>
+                <li><Link to="/Market5">5</Link></li>
         </div>
               
               
