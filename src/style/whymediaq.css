@@ -31,12 +31,12 @@
 
 
 @media (max-width:500px) {
-
+     .why h1 {
+          font-size: 2em;
+     }
      .child {
           display: block;
      }
-
-
      .child i {
           margin: 4px auto 1.4rem auto;
           width: 30%;
@@ -44,9 +44,8 @@
           align-items: center;
           justify-content: center;
      }
-
      .child2 {
           text-align: center;
-
+          margin: 0;
      }
 }
