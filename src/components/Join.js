@@ -6,13 +6,13 @@ import img2 from '../img/img2.png';
 export default function Join() {
   return (
     <div className='join'>
-        <div className="heading">
+        <div className="joinheading">
           <img src={img} alt="Logo" />;
           <h1>JOIN US VIA</h1>
           <img src={img2} alt="Logo" />;
         </div>
 
-        <div className="heading2">
+        <div className="joinheading2">
           <h1>DISCORD</h1>
         </div>
 
