@@ -1,19 +1,29 @@
-
 @media (max-width:1150px) {
-     .heading h1{
+     .heading h1 {
           font-size: 4em;
      }
-     .heading2 h1{
-         font-size: 4em;
+
+     .heading2 h1 {
+          font-size: 4em;
      }
-     .heading3 img{
+
+     .heading3 img {
           width: 80px;
      }
-     
-     .homechild{
+
+     .homechild {
           margin: 0 1em;
      }
-     .footerchild{
+
+     .footerchild {
           bottom: -250px;
+     }
+}
+
+@media (max-width:900px) {
+     .heading3 {
+          margin: 3em 0;
+          justify-content: center;
+          display: flex;
      }
 }

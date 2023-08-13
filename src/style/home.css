@@ -1,14 +1,16 @@
-.home{
-     background: linear-gradient(rgb(37, 1, 87),black);
+.home {
+     background: linear-gradient(rgb(37, 1, 87), black);
      height: 700px;
 }
-.heading{
-     padding-top:3em;
-     margin:  auto;
+
+.heading {
+     padding-top: 3em;
+     margin: auto;
      justify-content: center;
      display: flex;
 }
-.heading img{
+
+.heading img {
      width: 70px;
      padding-top: 2em;
      height: 70px;
@@ -16,37 +18,44 @@
      animation-duration: 3s;
      animation-iteration-count: infinite;
 }
-.heading h1{
+
+.heading h1 {
      padding: 6px 60px;
      color: white;
      font-size: 6em;
 }
-@keyframes updown{
-     0%{
+
+@keyframes updown {
+     0% {
           transform: translateY(25px);
      }
-     50%{
+
+     50% {
           transform: translateY(-9px);
      }
-     100%{
+
+     100% {
           transform: translateY(25px);
      }
 }
-.heading2 h1{
+
+.heading2 h1 {
      margin-top: -2rem;
      padding: 6px 60px;
      text-align: center;
-     font-size: 6em; 
+     font-size: 6em;
      background: linear-gradient(57deg, #00dbe0, #fc00ff);
      -webkit-text-fill-color: transparent;
      -webkit-background-clip: text;
 }
-.heading3{
+
+.heading3 {
      margin: 3em 0;
-    justify-content: center;
+     justify-content: center;
      display: flex;
 }
-.heading3 img{
+
+.heading3 img {
      display: flex;
      justify-content: center;
      align-items: center;
@@ -54,18 +63,21 @@
      margin: 0 auto;
 }
 
-.homechild{
+.homechild {
      text-align: center;
      margin: 0 4em;
      display: block;
 }
-.homechild h2{
+
+.homechild h2 {
      color: white;
 }
-.homechild h2 span{
+
+.homechild h2 span {
      color: red;
 }
-.homechild p{
+
+.homechild p {
      color: white;
 }
 
@@ -77,35 +89,42 @@
 
 
 
-#footer{
-     background: linear-gradient( black,rgb(37, 1, 87)); 
+#footer {
+     background: linear-gradient(black, rgb(37, 1, 87));
 }
-.footer{ 
+
+.footer {
      margin: auto;
      display: flex;
      justify-content: space-between;
 }
-.footer img{
+
+.footer img {
      width: 100%;
 }
-.footerchild{
+
+.footerchild {
      position: absolute;
      bottom: -250px;
      left: 40%;
      display: block;
 }
-.footerchild1{
+
+.footerchild1 {
      display: flex;
 }
-.footerchild1 i{
+
+.footerchild1 i {
      padding: 25px 16px;
      color: white;
      font-size: 2.3rem;
 }
-.footerchild2{
+
+.footerchild2 {
      display: flex;
 }
-.footerchild2 a{
+
+.footerchild2 a {
      padding: 0 12px;
      color: white;
      margin-left: 29px;

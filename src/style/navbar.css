@@ -40,7 +40,7 @@
      font-size: 1.4rem;
 }
 
-#nav3 i {
+.nav3 i {
      font-size: 1.3rem;
      color: rgb(240, 240, 240);
      padding: 0 10px;
@@ -54,7 +54,7 @@ a {
      text-decoration: none;
 }
 
-#navbar #nav3 {
+#navbar .nav3 {
      display: flex;
 }
 
@@ -90,8 +90,8 @@ a {
           display: block;
           left: 0;
           top: 0;
-          padding-top: 20px;
-          padding-bottom: 40px;
+          padding-top: 70px;
+          padding-bottom: 90px;
      }
 
      #navbar .navbar2 {
@@ -110,4 +110,27 @@ a {
           padding: .5rem 1rem;
      }
 
+     #navbar .nav3 {
+          display: none;
+     }
+
+     #navbar .nav3.active {
+          z-index: 3;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          margin-right: 3rem;
+          margin-top: 550px;
+     }
+
+     #navbar .nav3 i {
+          padding: 6px;
+     }
+
+
+}
+@media (max-width:600px) {
+     #logo{
+          margin-left: .6rem;
+     }
 }

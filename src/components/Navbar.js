@@ -22,7 +22,7 @@ export default function Navbar() {
                     <li><Link to="/Whychoose">Why Choose us</Link></li>
                     <li><Link to="/Join">Join us</Link></li>
                </div>
-               <div id="nav3">
+               <div className={`nav3 ${isActive ? 'active' : ''}`}>
                     <li><a href="/"><i className="fa-brands fa-twitter"></i></a></li>
                     <li><a href="/"><i className="fa-solid fa-gamepad"></i></a></li>
                </div>
