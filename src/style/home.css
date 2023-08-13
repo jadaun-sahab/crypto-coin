@@ -1,10 +1,11 @@
 .home {
      background: linear-gradient(rgb(37, 1, 87), black);
-     height: 700px;
+     height: 100%;
+     padding-bottom: 50px;
 }
 
 .heading {
-     padding-top: 3em;
+     padding-top: 10em;
      margin: auto;
      justify-content: center;
      display: flex;
@@ -37,6 +38,9 @@
      100% {
           transform: translateY(25px);
      }
+}
+.heading2{
+     margin-bottom: 14em;
 }
 
 .heading2 h1 {
@@ -79,53 +83,4 @@
 
 .homechild p {
      color: white;
-}
-
-
-
-
-
-
-
-
-
-#footer {
-     background: linear-gradient(black, rgb(37, 1, 87));
-}
-
-.footer {
-     margin: auto;
-     display: flex;
-     justify-content: space-between;
-}
-
-.footer img {
-     width: 100%;
-}
-
-.footerchild {
-     position: absolute;
-     bottom: -250px;
-     left: 40%;
-     display: block;
-}
-
-.footerchild1 {
-     display: flex;
-}
-
-.footerchild1 i {
-     padding: 25px 16px;
-     color: white;
-     font-size: 2.3rem;
-}
-
-.footerchild2 {
-     display: flex;
-}
-
-.footerchild2 a {
-     padding: 0 12px;
-     color: white;
-     margin-left: 29px;
 }

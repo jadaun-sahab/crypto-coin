@@ -34,6 +34,9 @@
      font-size: 1.4rem;
      color: rgb(240, 240, 240);
 }
+#navbar .navbar2 li a.hover {
+     color: rgb(240, 240, 240);
+}
 
 #logo {
      color: rgb(240, 240, 240);

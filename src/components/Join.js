@@ -23,6 +23,7 @@ export default function Join() {
         <div className='joinbutton'>
           <button className="joinbtn">Join via Discord</button>
         </div>
+        
     </div>
   );
 }

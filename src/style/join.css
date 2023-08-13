@@ -7,6 +7,7 @@
      font-size: 1.6rem;
      color: white;
      text-align: center;
+     margin-top: 2em;
 }
 
 .joinbutton {
@@ -73,6 +74,50 @@
      -webkit-text-fill-color: transparent;
      -webkit-background-clip: text;
 }
+
+
+#footer {
+     background: linear-gradient(#0b0618, rgb(37, 1, 87));
+}
+
+.footer {
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+}
+
+.footer img {
+     width: 100%;
+}
+
+.footerchild {
+     position: absolute;
+     bottom: -200px;
+     left: 40%;
+     display: block;
+}
+
+.footerchild1 {
+     display: flex;
+}
+
+.footerchild1 i {
+     padding: 25px 16px;
+     color: white;
+     font-size: 2.3rem;
+}
+
+.footerchild2 {
+     display: flex;
+}
+
+.footerchild2 a {
+     padding: 0 12px;
+     color: white;
+     margin-left: 29px;
+}
+
+
 @media(max-width:900px){
      .joinheading h1 {
           padding: 6px 60px;
@@ -86,6 +131,12 @@
           text-align: center;
           font-size: 4em;
      }
+     .joinheading img {
+          width: 50px;
+          padding-top: 2em;
+          height: 50px;
+     }
+      
 }
 
 @media(max-width:670px){
@@ -94,16 +145,37 @@
           font-size: 2.8em;
      }
      .joinheading2 h1 {
-          margin-top: -2rem;
+          margin-top: -1.5rem;
           margin-bottom: 2rem;
           font-size: 2.8em;
      }
      .joinheading img {
-          width: 50px;
+          width: 40px;
           padding-top: 2em;
-          height: 50px;
+          height: 40px;
      }
      .joinheding3 p {
           font-size: 1.3rem;
+     }
+     .joinbtn {
+          font-size: 1.1rem;
+     }
+}
+
+@media(max-width:485px){
+     .joinheading h1 {
+          padding: 6px 25px;
+          font-size: 1.8em;
+          margin-top: 10px;
+     }
+     .joinheading2 h1 {
+          padding: 6px 25px;
+          margin-top: -1.5rem;
+          margin-bottom: 2rem;
+          font-size: 1.8em;
+     }
+     .joinheding3 p {
+          font-size: 1.1rem;
+          padding: 0 10px;
      }
 }
