@@ -34,6 +34,7 @@
      .child {
           display: block;
      }
+     
 
      .child i {
           margin: 4px auto 1.4rem auto;
@@ -44,6 +45,6 @@
      }
      .child2{
           text-align: center;
-          
+
      }
 }
