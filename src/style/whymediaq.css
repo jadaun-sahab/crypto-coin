@@ -49,3 +49,22 @@
           margin: 0;
      }
 }
+
+@media (max-width:400px) {
+     .childcontainer img {
+          width: 180px;
+     }
+     .child{
+         padding: 29px 16px;
+     }
+     .child i {
+          padding: 15px 2px;
+          font-size: 1.8rem;
+     }
+     .child2 h2{
+          font-size: 1.3rem;
+     }
+     .child2 p{
+          font-size: 16px;
+     }
+}
