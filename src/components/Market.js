@@ -8,10 +8,10 @@ export default function Market() {
       <div className='market'>
         <h1>Market Update</h1>
         <div className="tableheading">
-                <ol>coin</ol>
-                <ol>price</ol>
+                <ol>Coin</ol>
+                <ol>Price</ol>
                 <ol>24hour</ol>
-                <ol>market cap</ol>
+                <ol>Market cap</ol>
         </div>
         <div className="tablebody">
                 <ol><img src={img3} alt="Logo"/>Bitcoin</ol>
@@ -54,7 +54,13 @@ export default function Market() {
                 <ol>24hour</ol>
                 <ol>$283629536</ol>
         </div>
-        
+        <div className="pages">
+                <li><Link to="/">1</Link></li>
+                <li><Link to="/">2</Link></li>
+                <li><Link to="/">3</Link></li>
+                <li><Link to="/">4</Link></li>
+                <li><Link to="/">5</Link></li>
+        </div>
               
               
       </div>

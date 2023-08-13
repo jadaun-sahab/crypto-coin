@@ -30,12 +30,15 @@
 }
 
 #navbar .navbar2 li a {
+     font-weight: 600;
      padding: 10px;
      font-size: 1.4rem;
      color: rgb(240, 240, 240);
 }
-#navbar .navbar2 li a.hover {
-     color: rgb(240, 240, 240);
+#navbar .navbar2 li :hover {
+     background: linear-gradient(57deg, #00dbe0, #fc00ff);
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
 }
 
 #logo {
@@ -47,6 +50,11 @@
      font-size: 1.3rem;
      color: rgb(240, 240, 240);
      padding: 0 10px;
+}
+#navbar .nav3 li :hover {
+     background: linear-gradient(57deg, #001ae0, #fc00ff);
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
 }
 
 li {

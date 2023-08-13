@@ -26,6 +26,7 @@
      font-size: 1.4rem;
      border: none;
      background: linear-gradient(140deg,rgb(37, 56, 198), rgb(217, 33, 245));
+     cursor: pointer;
 }
 
 
