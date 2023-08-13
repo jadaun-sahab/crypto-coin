@@ -29,12 +29,13 @@
      }
 }
 
+
 @media (max-width:500px) {
 
      .child {
           display: block;
      }
-     
+
 
      .child i {
           margin: 4px auto 1.4rem auto;
@@ -43,7 +44,8 @@
           align-items: center;
           justify-content: center;
      }
-     .child2{
+
+     .child2 {
           text-align: center;
 
      }
