@@ -20,42 +20,42 @@ export default function Market3() {
        <div className="tablebody">
                <ol><img src={img2} alt="Logo"/>Solana</ol>
                <ol>$3657</ol>
-                <ol>-0.4%</ol>
+                <ol className='green'>1.4%</ol>
                <ol>$283629536</ol>
        </div>
        <div className="tablebody">
                <ol><img src={img3} alt="Logo"/>Solana</ol>
                <ol>$3657</ol>
-                <ol>-0.4%</ol>
+                <ol className='red'>-0.4%</ol>
                <ol>$283629536</ol>
        </div>
        <div className="tablebody">
                <ol><img src={img2} alt="Logo"/>Solana</ol>
                <ol>$3657</ol>
-                <ol>-0.4%</ol>
+                <ol>0.0%</ol>
                <ol>$283629536</ol>
        </div>
        <div className="tablebody">
                <ol><img src={img3} alt="Logo"/>Solana</ol>
                <ol>$3657</ol>
-                <ol>-0.4%</ol>
+                <ol className='red'>-0.4%</ol>
                <ol>$283629536</ol>
        </div>
        <div className="tablebody">
                <ol><img src={img2} alt="Logo"/>Solana</ol>
                <ol>$3657</ol>
-                <ol>-0.4%</ol>
+                <ol className='green'>0.4%</ol>
                <ol>$283629536</ol>
        </div>
        <div className="tablebody">
                <ol><img src={img3} alt="Logo"/>Solana</ol>
                <ol>$3657</ol>
-                <ol>-0.4%</ol>
+                <ol className='red'>-0.4%</ol>
                <ol>$283629536</ol>
        </div> <div className="tablebody">
                <ol><img src={img2} alt="Logo"/>Solana</ol>
                <ol>$3657</ol>
-                <ol>-0.4%</ol>
+                <ol className='red'>-0.4%</ol>
                <ol>$283629536</ol>
        </div>
       </div>

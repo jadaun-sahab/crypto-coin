@@ -1,7 +1,8 @@
 .join {
      background: linear-gradient(rgb(37, 1, 87), black);
-     height: 100vh;
+     height: 100%;
      padding-top: 80px;
+     padding-bottom: 110px;
 }
 
 .joinheding3 p {
@@ -28,6 +29,11 @@
      border: none;
      background: linear-gradient(140deg,rgb(37, 56, 198), rgb(217, 33, 245));
      cursor: pointer;
+     box-shadow: 2px 2px 2px white,-1px -1px 1px white;
+}
+.joinbtn:hover{
+     transform: translateX(1px);
+     box-shadow: 1px 1px 2px white,-2px -2px 1px white;
 }
 
 

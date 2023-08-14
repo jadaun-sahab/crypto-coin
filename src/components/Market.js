@@ -25,42 +25,42 @@ export default function Market() {
         <div className="tablebody">
                 <ol><img src={img} alt="Logo"/>Cardano</ol>
                 <ol>$3657</ol>
-                <ol>-0.4%</ol>
+                <ol>0.0%</ol>
                 <ol>$283629536</ol>
         </div>
         <div className="tablebody">
                 <ol><img src={img1} alt="Logo"/>Cosmos</ol>
                 <ol>$3657</ol>
-                <ol>0.9%</ol>
+                <ol className='green'>0.9%</ol>
                 <ol>$283629536</ol>
         </div>
         <div className="tablebody">
                 <ol><img src={img2} alt="Logo"/>Bitcoin</ol>
                 <ol>$3657</ol>
-                <ol>3.1%</ol>
+                <ol className='green'>3.1%</ol>
                 <ol>$283629536</ol>
         </div>
         <div className="tablebody">
                 <ol><img src={img3} alt="Logo"/>Monero</ol>
                 <ol>$3657</ol>
-                <ol>-2.0%</ol>
+                <ol className='red'>-2.0%</ol>
                 <ol>$283629536</ol>
         </div>
         <div className="tablebody">
                 <ol><img src={img4} alt="Logo"/>Steller0</ol>
                 <ol>$3657</ol>
-                <ol>3.4%</ol>
+                <ol className='green'>3.4%</ol>
                 <ol>$283629536</ol>
         </div>
         <div className="tablebody">
                 <ol><img src={img5} alt="Logo"/>Solanaa</ol>
                 <ol>$3657</ol>
-                <ol>-1.5%</ol>
+                <ol className='red'>-1.5%</ol>
                 <ol>$283629536</ol>
         </div> <div className="tablebody">
                 <ol><img src={img6} alt="Logo"/>Optimis</ol>
                 <ol>$3657</ol>
-                <ol>2.9%</ol>
+                <ol className='green'>2.9%</ol>
                 <ol>$283629536</ol>
         </div>
         </div>

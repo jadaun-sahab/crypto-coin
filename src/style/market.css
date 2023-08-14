@@ -3,6 +3,7 @@
      height: 100%;
      padding-bottom: 90px;
      padding-top: 80px;
+     transition: all 0.9s;
 }
 
 .market h1 {
@@ -12,7 +13,7 @@
      margin: 0 auto 1em auto;
      font-weight: 400;
 }
-
+ 
 .tableheading {
      padding: 0 10px;
      background: linear-gradient(140deg, rgb(42, 97, 249), rgb(219, 56, 255));
@@ -77,4 +78,14 @@
 .pages li a:hover{
      background:linear-gradient(140deg,rgb(43, 110, 255),rgb(218, 36, 255));
      color: #f2f2f2;
+}
+.tablebody .green{
+     color: rgb(71, 246, 71);
+}
+.tablebody .red{
+     color: red;
+}
+.tablebody ol:nth-child(1){
+     color: rgb(184, 76, 243);
+     text-shadow: 0.5px 0.5px 0px rgba(255, 255, 255, 0.714);
 }

@@ -50,7 +50,13 @@
      display: flex;
      padding: 29px;
      margin: 30px 10px;
-     color: white;
+     color: white; 
+     box-shadow: 4px 4px 1px rgb(206, 60, 239), -1px -1px 1px rgb(206, 60, 239); 
+}
+.child:hover{
+     /* transform: translateX(1px); */
+     box-shadow: 2px 2px 1px rgb(206, 60, 239), -1px -1px 1px rgb(206, 60, 239); 
+     cursor: pointer;
 }
 
 .child2 {
