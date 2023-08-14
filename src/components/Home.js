@@ -26,22 +26,22 @@ export default function Home() {
         <div className="heading3">
           <div className="homechild">
             <img src={img3} alt="Logo"/>;
-            <h2>Bitcoin<span>-1.6%</span></h2>
+            <h2>Cosmos<span className='green'>2.1%</span></h2>
             <p>$29,34,66.00</p>
           </div>
           <div className="homechild">
             <img src={img4} alt="Logo"/>;
-            <h2>Ethereum<span>-1.6%</span></h2>
+            <h2>Optimism<span className='red'>-2.5%</span></h2>
             <p>$29,34,66.00</p>
           </div>
           <div className="homechild">
             <img src={img5} alt="Logo"/>;
-            <h2>Tether<span>-1.6%</span></h2>
+            <h2>Tether<span className='green'>1.4%</span></h2>
             <p>$29,34,66.00</p>
           </div>
           <div className="homechild">
             <img src={img6} alt="Logo"/>;
-            <h2>BNB<span>-1.6%</span></h2>
+            <h2>Cardano<span className='green'>3.6%</span></h2>
             <p>$29,34,66.00</p>
           </div>
         </div>

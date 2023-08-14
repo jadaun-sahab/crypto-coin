@@ -4,6 +4,12 @@
      padding-bottom: 50px;
      padding-top: 80px;
 }
+.green{
+     color: rgb(71, 246, 71);
+}
+.red{
+     color: red;
+}
 
 .heading {
      padding-top: 10em;
@@ -76,10 +82,6 @@
 
 .homechild h2 {
      color: white;
-}
-
-.homechild h2 span {
-     color: red;
 }
 
 .homechild p {
