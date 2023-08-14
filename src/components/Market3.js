@@ -9,11 +9,13 @@ export default function Market3() {
      <>
      <div className='market'>
        <h1>Market Update</h1>
-       <div className="tableheading">
+      <div className="table">
+
+      <div className="tableheading">
                <ol>Coin</ol>
                <ol>Price</ol>
                 <ol>24hour</ol>
-               <ol>Market cap</ol>
+               <ol>Market</ol>
        </div>
        <div className="tablebody">
                <ol><img src={img2} alt="Logo"/>Solana</ol>
@@ -56,7 +58,7 @@ export default function Market3() {
                 <ol>-0.4%</ol>
                <ol>$283629536</ol>
        </div>
-
+      </div>
        
        <div className="pages">
                <li><Link to="/Market">1</Link></li>

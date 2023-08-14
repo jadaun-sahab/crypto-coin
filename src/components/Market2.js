@@ -11,11 +11,12 @@ export default function Market2() {
           <h1>Market Update</h1>
 
 
+          <div className="table"> 
           <div className="tableheading">
                   <ol>Coin</ol>
                   <ol>Price</ol>
                   <ol>24hour</ol>
-                  <ol>Market cap</ol>
+                  <ol>Market</ol>
           </div>
           <div className="tablebody">
                   <ol><img src={img2} alt="Logo"/>Tether</ol>
@@ -52,11 +53,13 @@ export default function Market2() {
                   <ol>$3657</ol>
                    <ol>-0.4%</ol>
                   <ol>$283629536</ol>
-          </div> <div className="tablebody">
+          </div>
+           <div className="tablebody">
                   <ol><img src={img2} alt="Logo"/>Tether</ol>
                   <ol>$3657</ol>
                    <ol>-0.4%</ol>
                   <ol>$283629536</ol>
+          </div>
           </div>
           <div className="pages">
                   <li><Link to="/Market">1</Link></li>

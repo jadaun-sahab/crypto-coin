@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import Market from './components/Market';
 import Join from './components/Join';
 import Whychoose from './components/Whychoose';
-// import Footer from './components/Footer'; 
 import{
   BrowserRouter as Router,
   Routes,
@@ -30,7 +29,6 @@ function App() {
               <Route exact path="/Market3" element={<Market3/>}></Route>
               <Route exact path="/Market4" element={<Market4/>}></Route> 
             </Routes>
-          {/* <Footer/>  */}
       </div>
     </Router>
   )

@@ -1,6 +1,7 @@
 .join {
      background: linear-gradient(rgb(37, 1, 87), black);
      height: 100vh;
+     padding-top: 80px;
 }
 
 .joinheding3 p {

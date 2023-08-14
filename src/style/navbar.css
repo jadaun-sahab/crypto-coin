@@ -9,7 +9,9 @@
      height: 80px;
      display: flex;
      align-items: center;
+     position: fixed;
 }
+
 
 #navbar .fa-bars {
      color: white;

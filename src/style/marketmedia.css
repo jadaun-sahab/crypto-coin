@@ -1,4 +1,7 @@
 @media (max-width:1150px){
+     .market h1 {
+          width: 85%;
+     }
      .tableheading {
           width: 85%;
      }
@@ -9,6 +12,9 @@
 }
 
 @media (max-width:750px){
+     .market h1 {
+          text-align: center;
+     }
      .table{
           width: 92%;
           margin: 0 auto;
@@ -21,13 +27,24 @@
      .tablebody ol{
           padding: 20px 35px;
      }
+     .tableheading ol:nth-child(1){
+          padding-left: 10px;
+     }
+     .tablebody ol:nth-child(1){
+          padding-left: 10px;
+     }
      .tableheading {
           width: fit-content;
-         /* overflow-x: auto; */
      }
      
      .tablebody {
+          padding: 0;
           width: fit-content;
-          /* overflow-x: auto; */
+     }
+}
+
+@media (max-width:500px){
+     .market h1 {
+          font-size: 1.7rem;
      }
 }

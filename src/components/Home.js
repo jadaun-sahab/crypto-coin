@@ -3,10 +3,10 @@ import "../style/home.css";
 import "../style/homemediaq.css";
 import img from '../img/img1.png';
 import img2 from '../img/img2.png';
-import img3 from '../img/bitcoin.webp';
-import img4 from '../img/ethereum.webp';
+import img3 from '../img/cosmos_hub.webp';
+import img4 from '../img/Optimism.webp';
 import img5 from '../img/Tether.webp';
-import img6 from '../img/bnb-icon2_2x.webp';
+import img6 from '../img/cardano.webp';
 
 
 export default function Home() {

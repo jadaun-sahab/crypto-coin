@@ -9,11 +9,13 @@ export default function Market4() {
      <>
      <div className='market'>
        <h1>Market Update</h1>
+       <div className="table">
+
        <div className="tableheading">
                <ol>Coin</ol>
                <ol>Price</ol>
                <ol>24hour</ol>
-               <ol>Market cap</ol>
+               <ol>Market</ol>
        </div>
        <div className="tablebody">
                <ol><img src={img2} alt="Logo"/>Cosmos</ol>
@@ -57,6 +59,7 @@ export default function Market4() {
                <ol>$283629536</ol>
        </div>
 
+       </div>
        
        <div className="pages">
                <li><Link to="/Market">1</Link></li>

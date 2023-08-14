@@ -20,7 +20,7 @@ export default function Market() {
                 <ol>Coin</ol>
                 <ol>Price</ol>
                 <ol>24hour</ol>
-                <ol>Market cap</ol>
+                <ol>Market</ol>
         </div>
         <div className="tablebody">
                 <ol><img src={img} alt="Logo"/>Cardano</ol>
