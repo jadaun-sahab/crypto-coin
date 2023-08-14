@@ -86,7 +86,7 @@ a {
      #navbar .fa-bars {
           color: white;
           font-size: 1.6rem;
-          margin-right: 12px;
+          margin-right: 24px;
           display: block;
           z-index: 9;
      }
@@ -137,11 +137,10 @@ a {
      #navbar .nav3 i {
           padding: 6px;
      }
-
-
 }
-@media (max-width:600px) {
+@media (max-width:750px) {
      #logo{
-          margin-left: .6rem;
+          margin-left: .9rem;
      }
 }
+

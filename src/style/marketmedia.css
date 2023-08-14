@@ -1,0 +1,33 @@
+@media (max-width:1150px){
+     .tableheading {
+          width: 85%;
+     }
+     
+     .tablebody {
+          width: 85%;
+     }
+}
+
+@media (max-width:750px){
+     .table{
+          width: 92%;
+          margin: 0 auto;
+          overflow-x: auto;
+     }
+     .tableheading ol{
+          padding-left: 40px;
+          padding-right: 40px;
+     }
+     .tablebody ol{
+          padding: 20px 35px;
+     }
+     .tableheading {
+          width: fit-content;
+         /* overflow-x: auto; */
+     }
+     
+     .tablebody {
+          width: fit-content;
+          /* overflow-x: auto; */
+     }
+}

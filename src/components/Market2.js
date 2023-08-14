@@ -20,42 +20,42 @@ export default function Market2() {
           <div className="tablebody">
                   <ol><img src={img2} alt="Logo"/>Tether</ol>
                   <ol>$3657</ol>
-                  <ol>24hour</ol>
+                  <ol>-0.4%</ol>
                   <ol>$283629536</ol>
           </div>
           <div className="tablebody">
                   <ol><img src={img3} alt="Logo"/>Tether</ol>
                   <ol>$3657</ol>
-                  <ol>24hour</ol>
+                  <ol>-0.4%</ol>
                   <ol>$283629536</ol>
           </div>
           <div className="tablebody">
                   <ol><img src={img2} alt="Logo"/>Tether</ol>
                   <ol>$3657</ol>
-                  <ol>24hour</ol>
+                  <ol>-0.4%</ol>
                   <ol>$283629536</ol>
           </div>
           <div className="tablebody">
                   <ol><img src={img3} alt="Logo"/>Tether</ol>
                   <ol>$3657</ol>
-                  <ol>24hour</ol>
+                  <ol>-0.4%</ol>
                   <ol>$283629536</ol>
           </div>
           <div className="tablebody">
                   <ol><img src={img2} alt="Logo"/>Tether</ol>
                   <ol>$3657</ol>
-                  <ol>24hour</ol>
+                   <ol>-0.4%</ol>
                   <ol>$283629536</ol>
           </div>
           <div className="tablebody">
                   <ol><img src={img3} alt="Logo"/>Tether</ol>
                   <ol>$3657</ol>
-                  <ol>24hour</ol>
+                   <ol>-0.4%</ol>
                   <ol>$283629536</ol>
           </div> <div className="tablebody">
                   <ol><img src={img2} alt="Logo"/>Tether</ol>
                   <ol>$3657</ol>
-                  <ol>24hour</ol>
+                   <ol>-0.4%</ol>
                   <ol>$283629536</ol>
           </div>
           <div className="pages">

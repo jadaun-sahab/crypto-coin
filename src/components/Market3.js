@@ -12,48 +12,48 @@ export default function Market3() {
        <div className="tableheading">
                <ol>Coin</ol>
                <ol>Price</ol>
-               <ol>24hour</ol>
+                <ol>24hour</ol>
                <ol>Market cap</ol>
        </div>
        <div className="tablebody">
                <ol><img src={img2} alt="Logo"/>Solana</ol>
                <ol>$3657</ol>
-               <ol>24hour</ol>
+                <ol>-0.4%</ol>
                <ol>$283629536</ol>
        </div>
        <div className="tablebody">
                <ol><img src={img3} alt="Logo"/>Solana</ol>
                <ol>$3657</ol>
-               <ol>24hour</ol>
+                <ol>-0.4%</ol>
                <ol>$283629536</ol>
        </div>
        <div className="tablebody">
                <ol><img src={img2} alt="Logo"/>Solana</ol>
                <ol>$3657</ol>
-               <ol>24hour</ol>
+                <ol>-0.4%</ol>
                <ol>$283629536</ol>
        </div>
        <div className="tablebody">
                <ol><img src={img3} alt="Logo"/>Solana</ol>
                <ol>$3657</ol>
-               <ol>24hour</ol>
+                <ol>-0.4%</ol>
                <ol>$283629536</ol>
        </div>
        <div className="tablebody">
                <ol><img src={img2} alt="Logo"/>Solana</ol>
                <ol>$3657</ol>
-               <ol>24hour</ol>
+                <ol>-0.4%</ol>
                <ol>$283629536</ol>
        </div>
        <div className="tablebody">
                <ol><img src={img3} alt="Logo"/>Solana</ol>
                <ol>$3657</ol>
-               <ol>24hour</ol>
+                <ol>-0.4%</ol>
                <ol>$283629536</ol>
        </div> <div className="tablebody">
                <ol><img src={img2} alt="Logo"/>Solana</ol>
                <ol>$3657</ol>
-               <ol>24hour</ol>
+                <ol>-0.4%</ol>
                <ol>$283629536</ol>
        </div>
 

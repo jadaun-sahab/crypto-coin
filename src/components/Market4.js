@@ -18,42 +18,42 @@ export default function Market4() {
        <div className="tablebody">
                <ol><img src={img2} alt="Logo"/>Cosmos</ol>
                <ol>$3657</ol>
-               <ol>24hour</ol>
+               <ol>1.4%</ol>
                <ol>$283629536</ol>
        </div>
        <div className="tablebody">
                <ol><img src={img3} alt="Logo"/>Cosmos</ol>
                <ol>$3657</ol>
-               <ol>24hour</ol>
+               <ol>2.0%</ol>
                <ol>$283629536</ol>
        </div>
        <div className="tablebody">
                <ol><img src={img2} alt="Logo"/>Cosmos</ol>
                <ol>$3657</ol>
-               <ol>24hour</ol>
+               <ol>1.4%</ol>
                <ol>$283629536</ol>
        </div>
        <div className="tablebody">
                <ol><img src={img3} alt="Logo"/>Cosmos</ol>
                <ol>$3657</ol>
-               <ol>24hour</ol>
+               <ol>2.0%</ol>
                <ol>$283629536</ol>
        </div>
        <div className="tablebody">
                <ol><img src={img2} alt="Logo"/>Cosmos</ol>
                <ol>$3657</ol>
-               <ol>24hour</ol>
+               <ol>1.4%</ol>
                <ol>$283629536</ol>
        </div>
        <div className="tablebody">
                <ol><img src={img3} alt="Logo"/>Cosmos</ol>
                <ol>$3657</ol>
-               <ol>24hour</ol>
+               <ol>2.0%</ol>
                <ol>$283629536</ol>
        </div> <div className="tablebody">
                <ol><img src={img2} alt="Logo"/>Cosmos</ol>
                <ol>$3657</ol>
-               <ol>24hour</ol>
+               <ol>1.4%</ol>
                <ol>$283629536</ol>
        </div>
 
