@@ -13,6 +13,7 @@
 }
 
 .tableheading {
+     padding: 0 10px;
      background: linear-gradient(140deg, rgb(42, 97, 249), rgb(219, 56, 255));
      margin: 0 auto;
      width: 75%;
@@ -32,6 +33,7 @@
 }
 
 .tablebody {
+     padding: 0 10px;
      border-bottom: 2px solid white;
      margin: 0 auto;
      width: 75%;
