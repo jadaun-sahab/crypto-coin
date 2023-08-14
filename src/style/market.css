@@ -18,11 +18,11 @@
      width: 75%;
      display: flex;
      justify-content: space-between;
-     border-radius: 50px 50px 0 0;
+     border-radius: 20px 20px 0 0;
 }
 
 .tableheading ol {
-     font-size: 2rem;
+     font-size: 1.5rem;
      color: white;
      padding: 10px 15px;
 }
@@ -44,6 +44,7 @@
 }
 
 .tablebody ol {
+     font-family: ' sans-serif';
      font-size: 1.5rem;
      color: white;
      padding: 20px 10px ;
@@ -53,6 +54,7 @@
 }
 
 .tablebody img {
+     margin-right: 12px;
      width: 40px;
 }
 .pages{
@@ -70,6 +72,6 @@
      background-color: #fff;
 }
 .pages li a:hover{
-     background:linear-gradient(140deg,rgb(148, 148, 249),rgb(226, 134, 245));
-     color: #04050d;
+     background:linear-gradient(140deg,rgb(43, 110, 255),rgb(218, 36, 255));
+     color: #f2f2f2;
 }

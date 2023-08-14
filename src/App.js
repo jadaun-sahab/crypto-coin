@@ -12,8 +12,7 @@ import{
 } from "react-router-dom";
 import Market2 from './components/Market2';
 import Market4 from './components/Market4';
-import Market3 from './components/Market3';
-import Market5 from './components/Market5';
+import Market3 from './components/Market3'; 
 
 
 function App() {
@@ -29,8 +28,7 @@ function App() {
               <Route exact path="/Join" element={<Join/>}></Route>
               <Route exact path="/Market2" element={<Market2/>}></Route>
               <Route exact path="/Market3" element={<Market3/>}></Route>
-              <Route exact path="/Market4" element={<Market4/>}></Route>
-              <Route exact path="/Market5" element={<Market5/>}></Route>
+              <Route exact path="/Market4" element={<Market4/>}></Route> 
             </Routes>
           {/* <Footer/>  */}
       </div>
