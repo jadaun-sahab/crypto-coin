@@ -47,4 +47,9 @@
      .market h1 {
           font-size: 1.7rem;
      }
+     .pages li a{
+          margin: 2rem 9px;
+          font-size: 1rem;
+          padding: 8px 14px;
+     }
 }
